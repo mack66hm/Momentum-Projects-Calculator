@@ -2,7 +2,8 @@
 let answer = document.querySelector('.totalBar')
 let buttons = document.querySelectorAll('.row')
 let equals = document.querySelector('.equal')
-console.log(equals)
+let clear = document.querySelector('.clear')
+// console.log(equals)
 
 for (let button of buttons){
     button.addEventListener('click', function() {
@@ -18,3 +19,6 @@ for (let button of buttons){
        answer.innerText = result
 })
 
+clear.addEventListener('click', function(){
+    answer.innerText = ''
+})
