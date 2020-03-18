@@ -15,8 +15,8 @@ for (let button of buttons){
 }
 
     equals.addEventListener('click', function(){
-       let result= eval(answer.innerText)
-       answer.innerText = result
+       let result= eval(answer.textContent)
+       answer.textContent = result
 })
 
 clear.addEventListener('click', function(){

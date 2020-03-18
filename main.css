@@ -8,8 +8,8 @@ section{
     display: flex;
     flex-wrap: wrap;
     width: 600px;
-    
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
